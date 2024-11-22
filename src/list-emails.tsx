@@ -6,6 +6,7 @@ import { formatTimestamp } from "./utils";
 import { Login } from "./components/Login";
 import { MetaDataForm } from "./components/forms/MetaDataForm";
 import { AddressForm } from "./components/forms/AddressForm";
+import { emailEntries } from "../data/emails.js";
 
 enum Status {
   ANY = "ANY",
@@ -40,7 +41,8 @@ export default function Command() {
     (async () => {
       if (service) {
         const data = await service.hideMyEmail.getAllAdresses();
-        setEmails(data?.["hmeEmails"]);
+        // setEmails(data?.["hmeEmails"]);
+        setEmails(emailEntries);
       }
     })();
   }, [service]);
