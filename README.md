@@ -1,6 +1,6 @@
 # Hide My Email
 
-Tired of endlessly navigating through System Settings to create a new Hide My Email address? Check out this extension—it might be exactly what you need!
+Tired of endlessly navigating through System Settings to create a new Hide My Email address? Then this extension might be exactly what you need!
 
 ## Commands
 
