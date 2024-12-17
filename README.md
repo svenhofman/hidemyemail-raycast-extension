@@ -22,3 +22,8 @@ A quick way to generate a new iCloud Hide My Email address.
   <img src="metadata/hidemyemail-3.png" alt="Screenshot 3" width="49%">
   <img src="metadata/hidemyemail-4.png" alt="Screenshot 4" width="49%">
 </p>
+
+
+## Acknowledgments
+
+The iCloud API is derived from the [pyiCloud](https://github.com/picklepete/pyicloud/tree/master) module.
